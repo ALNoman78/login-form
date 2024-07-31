@@ -7,6 +7,16 @@
     <title>From</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="./javascript/email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "BfjQ-AOIeWkQqGp_K",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -14,7 +24,7 @@
         <section class="container">
             <div class="content">
                 <h3>Get Started Now</h3>
-                <form>
+                <form onsubmit="emailSend(); reset(); return false">
                     <label for="Name">
                         Name
                         <input type="text" name="name" id="name" placeholder="Enter your name" required>
@@ -30,7 +40,8 @@
                     <label for="check">
                         <input type="checkbox" name="" id="check-box-items" required>I agree to the terms & policy
                     </label>
-                    <input type="submit" class="primary-btn" value="Sign up">
+                    <!-- <input type="submit" class="primary-btn" value="Sign up" onclick="sendMail()"> -->
+                     <button type="submit" class="primary-btn" value="Sign up" onclick="sendMail()">Sign up</button>
                 </form>
                 <div class="line-box">
                     <hr class="left-hr">
@@ -57,6 +68,7 @@
             </div>
         </section>
     </main>
+    
 </body>
 
 </html>
