@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+/* body {
+    background-image: url('../assete/chris-lee-70l1tDAI6rM-unsplash\ 1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+} */
+.container{
+    display: flex;
+    gap: 147px;
+}
+
+.content {
+    margin: 150px 0;
+    max-width: 454px;
+    margin-left: 520px;
+}
+.content-img img{
+    width: 100%;
+    height: auto;
+}
+.content h3 {
+    margin-bottom: 4rem;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+label {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.content input {
+    width: 96%;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 10px;
+    padding: 7px 0;
+    margin-bottom: 20px;
+    /* padding-right: 7px; */
+    padding-left: 12px;
+}
+
+#check-box-items {
+    max-width: 28px;
+}
+
+.primary-btn {
+    border: none;
+    outline: 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(58, 91, 34);
+    border-radius: 10px;
+    background: rgb(58, 91, 34);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.line-box {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.right-hr,
+.left-hr {
+    border: 2px solid rgb(245, 245, 245);
+    width: 100%;
+}
+
+.text {
+    padding: 0px 5px;
+}
+
+.button-content,
+.secondary-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 40px;
+}
+
+.secondary-btn {
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.form-footer-section {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
+
+.form-footer-section a {
+    margin-left: 8px;
+    text-decoration: none;
+}
