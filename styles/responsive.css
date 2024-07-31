@@ -15,4 +15,7 @@
     .button-content{
         margin-top: 20px;
     }
+    .secondary-btn span{
+        display: none;
+    }
 }
